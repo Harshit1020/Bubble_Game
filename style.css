@@ -1,0 +1,114 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+   
+}
+
+html,body {
+	width: 100%;
+	height: 100%;
+}
+
+#main{
+
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    width: 100%;
+    height: 100%;
+    background-color:green;
+
+}
+
+#bubble{
+    
+    width: 70%;
+    height: 80%;
+    background-color:#fff;
+
+}
+
+#top{
+    display: flex;
+    width: 100%;
+    height: 20%;
+    background-color: rgb(15, 66, 15);
+
+
+}
+
+#btm{
+       
+        display: flex;
+        width: 100%;
+        height: 80%;
+        flex-wrap: wrap;
+        background-color:#fff;
+        color: green;
+        justify-content: center;
+        align-items: center;
+        font-size: 10px;
+        font-weight: 800;
+
+
+
+}
+
+.buble{
+
+    width: 50px;
+    height: 50px;
+    background-color:green;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 10px;
+    /* margin-right: 10px; */
+    
+}
+
+.sc{
+    display: flex;
+    width: calc(100%/3);
+    padding: 50px;
+    margin-left: 20px;
+    color: #fff;
+
+}
+
+.box{
+
+    padding:0,10px;
+    height: 40px;
+    border: 3px solid green;
+    background-color: #fff;
+    margin-left: 30px;
+    color: green;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+
+
+}
+
+.buble:hover{
+background-color: rgb(3, 212, 3);
+cursor: pointer;
+
+
+}
+
+
+#Tm{
+
+color:green     ;
+
+}
